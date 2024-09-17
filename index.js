@@ -194,8 +194,8 @@ function showNotFound() {
     const notFoundImage = document.createElement('img');
     notFoundImage.src = './assets/not-found.png'; 
     notFoundImage.alt = 'Not Found';
-    notFoundImage.width = 150; 
-    notFoundImage.height =150; 
+    notFoundImage.style.width = "350px"; // Adjust as needed
+  notFoundImage.style.height = "350px"; 
 
     notFoundContainer.appendChild(notFoundImage);
     userInfoContainer.innerHTML = ''; 
